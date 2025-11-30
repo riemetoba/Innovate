@@ -1,10 +1,10 @@
-import Header from "../layouts/Header"
+
 
 
 const Home = () => {
   return (
     <>
-    <Header/>
+    <div className="text-center text-6xl font-bold">Home</div>
     </>
   )
 }
