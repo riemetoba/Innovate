@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div>
+    <div className='bg-transparent fixed w-full z-50 pt-6 pb-96'>
         <Container>
             <Flex className={'justify-between'}>
                 <div className=''>
@@ -20,13 +20,13 @@ const Header = () => {
                     </Link>
                 </div>
                 <div>
-                    <ul className='flex items-center gap-x-3'>
-                        <li><Link to={"/"} className='flex items-center hover:text-[#FF7628] duration-300'>Home <FaChevronDown className='ml-1.5'/></Link></li>
-                        <li><Link to={"/about"} className='flex items-center hover:text-[#FF7628] duration-300'>About <FaChevronDown className='ml-1.5'/></Link></li>
-                        <li><Link to={"/service"} className='flex items-center hover:text-[#FF7628] duration-300'>Service <FaChevronDown className='ml-1.5'/></Link></li>
-                        <li><Link to={"/portfolio"} className='flex items-center hover:text-[#FF7628] duration-300'>Portfolio <FaChevronDown className='ml-1.5'/></Link></li>
-                        <li><Link to={"/price"} className='flex items-center hover:text-[#FF7628] duration-300'>Price <FaChevronDown className='ml-1.5'/></Link></li>
-                        <li><Link to={"/blog"} className='flex items-center hover:text-[#FF7628] duration-300'>Blog <FaChevronDown className='ml-1.5'/></Link></li>
+                    <ul className='flex items-center gap-x-7'>
+                        <li><Link to={"/"} className='flex items-center hover:text-[#FF7628] duration-300'>Home <FaChevronDown className='ml-2'/></Link></li>
+                        <li><Link to={"/about"} className='flex items-center hover:text-[#FF7628] duration-300'>About <FaChevronDown className='ml-2'/></Link></li>
+                        <li><Link to={"/service"} className='flex items-center hover:text-[#FF7628] duration-300'>Service <FaChevronDown className='ml-2'/></Link></li>
+                        <li><Link to={"/portfolio"} className='flex items-center hover:text-[#FF7628] duration-300'>Portfolio <FaChevronDown className='ml-2'/></Link></li>
+                        <li><Link to={"/price"} className='flex items-center hover:text-[#FF7628] duration-300'>Price <FaChevronDown className='ml-2'/></Link></li>
+                        <li><Link to={"/blog"} className='flex items-center hover:text-[#FF7628] duration-300'>Blog <FaChevronDown className='ml-2'/></Link></li>
                     </ul>
                 </div>
                 <div className=''>

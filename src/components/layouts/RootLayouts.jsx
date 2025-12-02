@@ -4,10 +4,11 @@ import Footer from "./Footer"
 import Header from "./Header"
 
 
+
 const RootLayouts = () => {
   return (
     <>
-    <Header/> 
+    <Header/>
     <Outlet/>
     <Footer/>
     </>

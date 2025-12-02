@@ -1,10 +1,12 @@
+import Banner from "../layouts/Banner"
 
 
 
 const Home = () => {
   return (
     <>
-    <div className="text-center text-6xl font-bold">Home</div>
+    <Banner/>
+
     </>
   )
 }
